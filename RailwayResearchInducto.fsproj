@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Config.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Binders.fs" />
+    <Compile Include="Logger.fs" />
+    <Compile Include="Validation.fs" />
+    <Compile Include="Correction.fs" />
+    <Compile Include="Propagation.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
